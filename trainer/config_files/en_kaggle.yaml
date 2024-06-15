@@ -2,8 +2,8 @@ number: '0123456789'
 symbol: ""
 lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 experiment_name: 'en_filtered'
-train_data: '/kaggle/working/ocr_trainer/trainer/all_data/en_sample'
-valid_data: '/kaggle/working/ocr_trainer/trainer/all_data/en_sample'
+train_data: '/kaggle/input/plates2/trdg_results'
+valid_data: '/kaggle/input/plates2/trdg_results'
 manualSeed: 1111
 workers: 6
 batch_size: 32 #32
@@ -18,7 +18,7 @@ rho: 0.95
 eps: 0.00000001
 grad_clip: 5
 #Data processing
-select_data: '/kaggle/working/ocr_trainer/trainer/all_data/en_sample' # this is dataset folder in train_data
+select_data: '/kaggle/input/plates2/trdg_results' # this is dataset folder in train_data
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
 batch_max_length: 34 
